@@ -1,6 +1,7 @@
 html {
   background: url(../images/flamenco-beach.jpg) no-repeat center center fixed;
   background-size: cover;
+  background-position: 85% 50%;
   height: 100%;
   font-family: 'Caveat', cursive;
   overflow: hidden;
@@ -11,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
+  padding: 6%;
 }
 
 h1 {
@@ -20,8 +22,18 @@ h1 {
 }
 
 p {
-  margin: auto;
+  color: white;
+  font-size: 2rem;
+  margin: 2rem auto;
   max-width: 650px;
+  text-shadow: 1px 1px 13px black;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: white;
 }
 
 .snowflake {
